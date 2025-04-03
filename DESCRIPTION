@@ -1,6 +1,6 @@
 Package: lazysf
 Title: Delayed Read for 'GDAL' Vector Data Sources
-Version: 0.1.0
+Version: 0.2.0
 Authors@R: 
     person(given = "Michael",
            family = "Sumner",
@@ -13,19 +13,19 @@ Description: Lazy read for drawings. A 'dplyr' back end for data sources support
     data source') supported by the 'sf' package. 
 License: GPL-3
 Encoding: UTF-8
-LazyData: true
-RoxygenNote: 7.1.1
+RoxygenNote: 7.3.2
 Imports: sf (>= 0.7-0), methods, DBI, tibble, dbplyr, magrittr, dplyr
-URL: https://github.com/mdsumner/lazysf
-BugReports: https://github.com/mdsumner/lazysf/issues
+URL: https://github.com/hypertidy/lazysf,
+        https://hypertidy.github.io/lazysf/
+BugReports: https://github.com/hypertidy/lazysf/issues
 Suggests: knitr, rmarkdown
 VignetteBuilder: knitr
 Collate: 'SFSQLConnection.R' 'SFSQLDriver.R' 'SFSQLResult.R'
         'connect.R' 'lazysf-package.R' 'lazysf.R' 'utils-pipe.R'
         'zzz.R'
 NeedsCompilation: no
-Packaged: 2020-11-09 23:59:35 UTC; mdsumner
+Packaged: 2025-04-03 05:51:22 UTC; mdsumner
 Author: Michael Sumner [aut, cre] (<https://orcid.org/0000-0002-2471-7511>)
 Maintainer: Michael Sumner <mdsumner@gmail.com>
 Repository: CRAN
-Date/Publication: 2020-11-14 08:30:02 UTC
+Date/Publication: 2025-04-03 06:10:02 UTC
